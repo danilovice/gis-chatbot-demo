@@ -1,19 +1,19 @@
 # GIS Chatbot Demo
 
-Combineert Dify, FastAPI, MongoDB/PostGIS en een Leaflet.js frontend voor geografische AI-query's.
+Combines Dify, FastAPI, MongoDB/PostGIS, and a Leaflet.js frontend for geographic AI queries.
 
-## Stappen:
+## Steps:
 
-1: Clone het project: \
+1: Clone the project: \
 git clone github.com/danilovice/gis-chatbot-demo
 
-2: Installeer de dependencies voor de frontend \
+2: Install the dependencies for the frontend \
 cd /frontend \
 npm install
 
-3: Installeer de dependencies voor de backend
+3: Install the dependencies for the backend
 
-**optioneel maar aanbevolen: Creëer een virtueel environment voor python**
+**Optional but recommended: Create a virtual environment for Python**
 
 cd /backend \
 python -m venv .venv
@@ -21,14 +21,14 @@ python -m venv .venv
 .venv\Scripts\activate \
 pip install -r requirements.txt
 
-of eenvoudig in vs code: <https://code.visualstudio.com/docs/python/environments#:~:text=To%20create%20local%20environments%20in,environment%20types%3A%20Venv%20or%20Conda> 
+Or simply in VS Code: <https://code.visualstudio.com/docs/python/environments#:~:text=To%20create%20local%20environments%20in,environment%20types%3A%20Venv%20or%20Conda> 
 
-4: Run backend (FastAPI):
+4: Run the backend (FastAPI):
 
 uvicorn main:app --reload
 
-5: Start frontend (Next.js):
+5: Start the frontend (Next.js):
 
 npm run dev
 
-6: Open chatbot & kaart in browser: http://localhost:3000
+6: Open the chatbot & map in the browser: http://localhost:3000
