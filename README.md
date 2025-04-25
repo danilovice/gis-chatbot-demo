@@ -2,6 +2,10 @@
 
 Combines Dify, FastAPI, MongoDB/PostGIS, and a Leaflet.js frontend for geographic AI queries.
 
+## Requirements
+
+Make sure that you have nodejs, git and dify installed. 
+
 ## Steps:
 
 1: Clone the project: \
@@ -32,3 +36,7 @@ uvicorn main:app --reload
 npm run dev
 
 6: Open the chatbot & map in the browser: http://localhost:3000
+
+## TODO
+
+Add the backend API to dify 

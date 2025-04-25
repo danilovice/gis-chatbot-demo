@@ -2,3 +2,4 @@ fastapi
 uvicorn
 pymongo
 geojson
+python-dotenv
